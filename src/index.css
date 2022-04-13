@@ -12,10 +12,13 @@ code {
     monospace;
 }
 
+.app-container{
+  font-family: 'Roboto', sans-serif;
+
+}
 
 .container{
   display: flex;
-  font-family: 'Roboto', sans-serif;
   /* width: 100vw;
   height: 100vh; */
   padding: 20px;
@@ -23,10 +26,13 @@ code {
   background-color: teal;
 }
 
+
 #editor{
   width: 40%;
   /* height: 80vh; */
   background-color: aliceblue;
+  margin: 10px;
+  resize: none;
 }
 
 #preview{
@@ -35,8 +41,19 @@ code {
   min-height: 80vh;
   background-color: aliceblue;
   max-height: fit-content;
+  margin: 10px;
 }
 
 .preview_html{
   /* width: 100%; */
+}
+
+.heading{
+  background-color: teal;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  color: aliceblue;
 }

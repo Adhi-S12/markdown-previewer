@@ -29,16 +29,14 @@ const App = () => {
 	}, []);
 
 	return (
-		<div className="container">
-			<textarea
-				name="editor"
-				id="editor"
-				cols="30"
-				rows="20"
-				value={input}
-				onChange={(e) => changeInput(e)}
-			/>
-			<div id="preview" dangerouslySetInnerHTML={{ __html: output }} className="preview_html" />
+		<div className="app-container">
+			<div className="heading">
+				<em>Markdown Previewer</em>
+			</div>
+			<div className="container">
+				<textarea name="editor" id="editor" value={input} onChange={(e) => changeInput(e)} />
+				<div id="preview" dangerouslySetInnerHTML={{ __html: output }} className="preview_html" />
+			</div>
 		</div>
 	);
 };
