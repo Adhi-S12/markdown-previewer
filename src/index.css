@@ -30,6 +30,7 @@ code {
 #editor{
   width: 40%;
   /* height: 80vh; */
+  padding: 10px;
   background-color: aliceblue;
   margin: 10px;
   resize: none;
@@ -44,9 +45,9 @@ code {
   margin: 10px;
 }
 
-.preview_html{
+/* .preview_html{
   /* width: 100%; */
-}
+} */
 
 .heading{
   background-color: teal;
